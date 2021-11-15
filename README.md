@@ -1,0 +1,2 @@
+# kursVazifalar
+kursdagi vazifalar
