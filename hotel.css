@@ -1,0 +1,302 @@
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+
+#header {
+    background-color: #35424a;
+    border-bottom: 3px solid coral;
+}
+
+
+.container ul{
+    list-style-type: none;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+
+#header h1 {
+    color: white;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+
+#header .logo {
+    color: coral;
+}
+
+
+.navbar {
+    float: right;
+}
+
+
+.navbar li {
+    display: inline;
+}
+
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px 15px;
+    display: inline-block;
+}
+
+
+.navbar li a:hover {
+    color: coral;
+}
+
+
+.navbar .home {
+    border: 5px solid coral;
+    background-color: coral;
+    color: white;
+}
+
+
+.navbar .home:hover{
+    color: #35424a;
+}
+
+#banner {
+    height: 60vh;
+    background-image: url(CityTech.jpg);
+    background-size: cover;
+    background-position: center -300px;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+
+#banner h1 {
+    font-size: 56px;
+    margin-bottom: 25px;
+    padding-top: 100px;
+}
+
+
+
+#newsletter {
+    background-color: #35424a;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+#newsletter .right {
+    float: right;
+    display: block;
+}
+
+
+#newsletter .left {
+    float: left;
+}
+
+
+
+
+#newsletter input {
+    padding: 5px;
+}
+
+
+.button {
+    padding: 6px 15px;
+    border: none;
+    background-color: coral;
+    color: #fff;
+}
+
+.button:hover{
+    color: #35424a;
+}
+
+.box1 {
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.box1 img{
+    width: 220px;
+}
+
+
+.box1:hover {
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+.box2 {
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+.box2 img{
+    width: 260px;
+}
+
+
+.box2:hover {
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+.box3 {
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+.box3 img{
+    width: 209px;
+}
+
+
+.box3:hover {
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+.clr {
+    clear: both;
+}
+
+
+#footer {
+    padding: 50px 0;
+    text-align: center;
+    background-color: coral;
+    color: #fff;
+    margin-top: 40px;
+}
+
+
+
+.navbar .about {
+    border: 5px solid coral;
+    background-color: coral;
+    color: white;
+}
+
+
+
+.navbar .about:hover{
+    color: #35424a;
+}
+
+
+
+.content {
+    margin-top: 10px;
+    width: 65%;
+    float: left;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+
+
+.sidebar {
+    background-color: #35424a;
+    color: #fff;
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    
+}
+
+
+.bookcase {
+    background-color: #35424a;
+    color: #fff;
+    margin-right: 30px;
+    padding: 15px 10px;
+}
+
+
+
+.navbar .services {
+    border: 5px solid coral;
+    background-color: coral;
+    color: white;
+}
+
+
+
+.navbar .services:hover{
+    color: #35424a;
+}
+
+
+
+.box-case {
+    width: 65%;
+    float: left;    
+}
+
+
+.box{
+    background-color: #e5e5e5;
+    border: 1px solid #555;
+    padding: 20px;
+    margin: 10px 0 ;
+}
+
+.third {
+    margin-top: 30px;
+}
+
+
+
+.quote {
+    width: 30%;
+    float: left;
+    background-color: #35424a;
+    color: #fff;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 0;
+    display: block;
+}
+
+
+.note input,textarea {
+    padding: 10px 0;
+    width: 100%;
+    margin: 10px 0;
+    display: block;
+
+}
+
+label {
+    display: block;
+}
